@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/apollon
+DEVICE_PATH := device/xiaomi/apollo
 
 # Inherit from sm8250-common
 include device/xiaomi/sm8250-common/BoardConfigCommon.mk
@@ -31,4 +31,4 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 
 # Inherit from the proprietary version
-include vendor/xiaomi/apollon/BoardConfigVendor.mk
+include vendor/xiaomi/apollo/BoardConfigVendor.mk
