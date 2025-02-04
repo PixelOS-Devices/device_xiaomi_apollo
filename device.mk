@@ -289,7 +289,8 @@ PRODUCT_COPY_FILES += \
 # Rootdir
 PRODUCT_PACKAGES += \
     fstab.qcom \
-    fstab.qcom_ramdisk
+    fstab.qcom.ramdisk \
+    fstab.qcom.vendor_ramdisk
 
 PRODUCT_PACKAGES += \
     init.class_main.sh \
