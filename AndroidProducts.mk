@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_apollon.mk
+    $(LOCAL_DIR)/aosp_apollo.mk
