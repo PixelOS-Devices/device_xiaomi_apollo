@@ -20,7 +20,7 @@ TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_apollo
 TARGET_KERNEL_CONFIG += vendor/xiaomi/apollo.config
 
 # OTA assert
-TARGET_OTA_ASSERT_DEVICE := apollo,apollon,apollopro
+TARGET_OTA_ASSERT_DEVICE := apollo,apollo,apollopro
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop

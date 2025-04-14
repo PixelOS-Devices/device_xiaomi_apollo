@@ -46,9 +46,9 @@ vendor/lib/rfsa/adsp/misound_karaokemix_res.bin
 vendor/lib/rfsa/adsp/misound_res.bin
 
 # Audio
-vendor/lib/hw/audio.primary.kona.so:vendor/lib/hw/audio.primary.apollon.so;FIX_SONAME
+vendor/lib/hw/audio.primary.kona.so:vendor/lib/hw/audio.primary.apollo.so;FIX_SONAME
 vendor/lib/vndk/libxlog.so
-vendor/lib/liba2dpoffload.so:vendor/lib/liba2dpoffload_apollon.so;FIX_SONAME
+vendor/lib/liba2dpoffload.so:vendor/lib/liba2dpoffload_apollo.so;FIX_SONAME
 vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudioroute_ext.so
 vendor/lib/libresampler.so

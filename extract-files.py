@@ -24,10 +24,10 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace('.*seclabel u:r:batterysecret:s0\n', ''),
     'vendor/etc/libnfc-nci.conf': blob_fixup()
         .add_line_if_missing('LEGACY_MIFARE_READER=1'),
-    'vendor/lib/hw/audio.primary.apollon.so': blob_fixup()
+    'vendor/lib/hw/audio.primary.apollo.so': blob_fixup()
         .binary_regex_replace(
             b'/vendor/lib/liba2dpoffload.so',
-            b'liba2dpoffload_apollon.so\x00\x00\x00\x00',
+            b'liba2dpoffload_apollo.so\x00\x00\x00\x00',
         ),
     'vendor/lib64/camera/components/com.mi.node.watermark.so': blob_fixup()
         .add_needed('libpiex_shim.so'),
