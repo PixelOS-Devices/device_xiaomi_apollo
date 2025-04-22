@@ -894,11 +894,7 @@ function configure_memory_parameters() {
     ProductName=`getprop ro.product.name`
     low_ram=`getprop ro.config.low_ram`
 
-    if [ "$ProductName" == "msmnile" ] || [ "$ProductName" == "kona" ] || [ "$ProductName" == "sdmshrike_au" ] || [ "$ProductName" == "alioth" ]; then
-
-        # Enable ZRAM
-        configure_read_ahead_kb_values
-      	echo 100 > /proc/sys/vm/swappiness
+    if true; then
 
         #add memory limit to camera cgroup
         MemTotalStr=`cat /proc/meminfo | grep MemTotal`
